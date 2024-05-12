@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60d0c157-a643-4005-a70e-fc90bb5fcb45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mysql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/FraudServiceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/entity/FraudRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/entity/LoanStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/test/java/dev/kei/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo33_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo34_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo38_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/binlog.000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/binlog.000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/fraud_detection/flyway_schema_history.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql.sock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/general_log_214.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/mysql/slow_log_215.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gMm5a8byMmxw2EYAg8zDLOqAsk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App.executor": "Run",
+    "Application.FraudServiceApp.executor": "Run",
+    "Docker.docker-compose.yml.mysql: Compose Deployment.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/arkarmin/Desktop/projects/java/springboot3-observability-pattern"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.kei.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FraudServiceApp">
+    <configuration name="FraudServiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.kei.FraudServiceApp" />
+      <module name="fraud-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.kei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FraudServiceApp" />
+        <item itemvalue="Docker.docker-compose.yml.mysql: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60d0c157-a643-4005-a70e-fc90bb5fcb45" name="Changes" comment="" />
+      <created>1715515637785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715515637785</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
