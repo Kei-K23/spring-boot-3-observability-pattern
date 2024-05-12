@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60d0c157-a643-4005-a70e-fc90bb5fcb45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/client/FraudDetectionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/grafana/dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/grafana/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/tempo_cluster_seed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/tempo/tempo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loan-service/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/controller/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/controller/FraudController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/dto/FraudCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/dto/FraudCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/dto/FraudResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/dto/FraudResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/entity/Fraud.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/entity/Fraud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/repository/FraudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/repository/FraudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/service/FraudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/service/FraudService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/resources/db/migration/V1__create__table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/db/migration/V1__create__table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/dto/LoanCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/dto/LoanCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/service/LoanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo10" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/#innodb_redo/#ib_redo10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-data/fraud_detection/flyway_schema_history.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/fraud_detection/flyway_schema_history.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-data/fraud_detection/fraud_records.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/fraud_detection/fraud_records.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/repository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/repository/LoanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +54,31 @@
     "Application.App.executor": "Run",
     "Application.FraudServiceApp.executor": "Run",
     "Application.LoanServiceApp.executor": "Run",
+    "Docker.docker-compose.yml.grafana: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.loki: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml.mysql: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.prometheus: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.tempo: Compose Deployment.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/arkarmin/Desktop/projects/java/springboot3-observability-pattern"
+    "last_opened_file_path": "/Users/arkarmin/Desktop/projects/java/springboot3-observability-pattern/fraud-service/src/main/resources"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.kei.entity" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fraud-service/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fraud-service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LoanServiceApp">
+  <component name="RunManager" selected="Docker.docker-compose.yml.grafana: Compose Deployment">
     <configuration name="FraudServiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.kei.FraudServiceApp" />
       <module name="fraud-service" />
@@ -99,12 +109,38 @@
       <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker-compose.yml.grafana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="mysql" />
+              <option value="grafana" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.prometheus: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="prometheus" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.tempo: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="tempo" />
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
@@ -116,7 +152,9 @@
       <list>
         <item itemvalue="Application.LoanServiceApp" />
         <item itemvalue="Application.FraudServiceApp" />
-        <item itemvalue="Docker.docker-compose.yml.mysql: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.grafana: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.tempo: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.prometheus: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>

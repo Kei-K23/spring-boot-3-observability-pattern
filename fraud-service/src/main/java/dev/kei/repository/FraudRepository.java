@@ -2,20 +2,24 @@ package dev.kei.repository;
 
 import dev.kei.dto.FraudResponse;
 import dev.kei.entity.Fraud;
+import io.micrometer.observation.annotation.Observed;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
 
 @Repository
+@Observed
 public class FraudRepository {
     private final JdbcClient jdbcClient;
 
     public FraudRepository(JdbcClient jdbcClient) {
         this.jdbcClient = jdbcClient;
     }
-    
+
+    @Transactional(readOnly = true)
     public List<FraudResponse> findAllFraud() {
         var selectQuery = "SELECT * FROM fraud_records";
         return jdbcClient.sql(selectQuery).query(FraudResponse.class).list();
