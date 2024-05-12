@@ -1,11 +1,8 @@
 package dev.kei.repository;
 
-import dev.kei.dto.FraudCreateRequest;
 import dev.kei.dto.FraudResponse;
 import dev.kei.entity.Fraud;
 import org.springframework.jdbc.core.simple.JdbcClient;
-import org.springframework.jdbc.support.GeneratedKeyHolder;
-import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -25,11 +22,22 @@ public class FraudRepository {
     } 
     
     public void save(Fraud fraud) {
-        var insertQuery = "INSERT INTO fraud_records(fraudId, customerId, loanStatus) VALUES(?, ?, ?)";
+        var insertQuery = "INSERT INTO fraud_records(fraudId, customerId) VALUES(?, ?)";
         jdbcClient.sql(insertQuery)
                 .param(1, UUID.randomUUID().toString())
                 .param(2, fraud.getCustomerId())
-                .param(3, fraud.getLoanStatus().toString())
                 .update();
+    }
+
+    public boolean checkFraudByCustomerId(Integer customerId) {
+        var selectQuery = """
+                SELECT COUNT(*) AS fraud__record_exists
+                FROM fraud_records
+                WHERE customerId = :customerId;
+                """;
+        return jdbcClient.sql(selectQuery)
+               .param("customerId", customerId)
+               .query(Integer.class)
+               .single() > 0;
     }
 }

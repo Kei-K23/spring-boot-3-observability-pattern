@@ -10,5 +10,4 @@ import lombok.*;
 @Builder
 public class FraudCreateRequest{
     private Integer customerId;
-    private String loanStatus;
 }

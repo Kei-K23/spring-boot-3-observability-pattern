@@ -23,15 +23,17 @@ public class FraudService {
 
     public String save(FraudCreateRequest fraudCreateRequest) {
         try {
-            LoanStatus loanStatus = LoanStatus.valueOf(fraudCreateRequest.getLoanStatus());
             Fraud fraud = Fraud.builder()
                     .customerId(fraudCreateRequest.getCustomerId())
-                    .loanStatus(loanStatus)
                     .build();
+            fraudRepository.save(fraud);
             return "Fraud created successfully";
         } catch (Exception e) {
-            System.out.println(e);
             return  "Something went wrong when saving fraud";
         }
+    }
+
+    public LoanStatus checkFraudByCustomerId(Integer customerId) {
+        return fraudRepository.checkFraudByCustomerId(customerId) ? LoanStatus.REJECTED : LoanStatus.APPROVED;
     }
 }

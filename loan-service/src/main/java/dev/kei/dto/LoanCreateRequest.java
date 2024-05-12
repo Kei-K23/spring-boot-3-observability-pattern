@@ -13,6 +13,5 @@ import lombok.NoArgsConstructor;
 public class LoanCreateRequest {
     private Integer customerId;
     private String customerName;
-    private String loanStatus;
     private Integer amount;
 }

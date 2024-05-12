@@ -14,5 +14,4 @@ public class FraudResponse {
     private Long id;
     private String fraudId;
     private  Integer customerId;
-    LoanStatus loanStatus;
 }
