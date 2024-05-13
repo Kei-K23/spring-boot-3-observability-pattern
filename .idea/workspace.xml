@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60d0c157-a643-4005-a70e-fc90bb5fcb45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/grafana/dashboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/grafana/datasource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/tempo_cluster_seed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/tempo/tempo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/config/ObservationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/config/ObservationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/repository/FraudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/java/dev/kei/repository/FraudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fraud-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/repository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/java/dev/kei/repository/LoanRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/#innodb_temp/temp_9.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/binlog.000010" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/binlog.000010" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-data/ibtmp1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.App.executor": "Run",
-    "Application.FraudServiceApp.executor": "Run",
-    "Application.LoanServiceApp.executor": "Run",
-    "Docker.docker-compose.yml.grafana: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.loki: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.prometheus: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.tempo: Compose Deployment.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/arkarmin/Desktop/projects/java/springboot3-observability-pattern/fraud-service/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FraudServiceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoanServiceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.grafana: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.loki: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.prometheus: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.tempo: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/arkarmin/Desktop/projects/java/springboot3-observability-pattern/fraud-service/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.kei.entity" />
@@ -106,7 +107,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml.grafana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
